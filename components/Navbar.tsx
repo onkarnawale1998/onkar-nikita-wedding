@@ -59,7 +59,7 @@ const Navbar: React.FC = () => {
           ))}
         </div>
         <div className="absolute bottom-10">
-          <p className="text-gold font-script text-3xl">Omkar & Nikita</p>
+          <p className="text-gold font-script text-3xl">Onkar & Nikita</p>
           <p className="text-cream/60 text-xs mt-2 text-center uppercase tracking-widest">05 • 12 • 2025</p>
         </div>
       </div>

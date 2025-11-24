@@ -71,7 +71,7 @@ const Hero: React.FC = () => {
             </h1>
           </div>
            <div className="mt-2 text-gold/80 font-heading tracking-widest uppercase text-sm md:text-lg">
-              Omkar & Nikita
+              Onkar & Nikita
            </div>
         </motion.div>
 
