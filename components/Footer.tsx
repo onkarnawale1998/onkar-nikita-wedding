@@ -21,8 +21,9 @@ const Footer: React.FC = () => {
            </div>
            <div>
               <h4 className="text-white font-bold mb-2 uppercase tracking-wider">Contact</h4>
-              <p>Navale Family</p>
-              <p>+91 98765 43210</p>
+              <p>Nawale Family</p>
+              <p>+91 8605302620</p>
+              <p>+91 8623952417</p>
            </div>
            <div>
               <h4 className="text-white font-bold mb-2 uppercase tracking-wider">Hashtag</h4>

@@ -34,7 +34,7 @@ const Hero: React.FC = () => {
       <motion.div style={{ y: y1 }} className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-b from-maroon/60 via-maroon/30 to-cream z-10"></div>
         <img
-          src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&q=80&w=1920"
+          src="WhatsApp Image 2025-11-25 at 01.43.14_3af31cbb.jpg"
           alt="Wedding Background"
           className="w-full h-full object-cover animate-pulse-slow scale-110"
         />

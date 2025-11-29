@@ -72,7 +72,7 @@ const Venue: React.FC = () => {
              <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-gold">
                 <h3 className="font-marathi text-2xl text-maroon mb-6 flex items-center">
                     <span className="text-2xl mr-2">🏨</span>
-                    निवास व्यवस्था (Recommended Stay)
+                    निवास व्यवस्था
                 </h3>
                 <div className="space-y-6">
                     {ACCOMMODATIONS.map((hotel, idx) => (

@@ -62,7 +62,7 @@ export const STORY_ITEMS: StoryItem[] = [
 ];
 
 export const GALLERY_IMAGES: GalleryImage[] = [
-  { id: 1, src: 'https://images.unsplash.com/photo-1595536413208-41dfb3935263?auto=format&fit=crop&q=80&w=800', alt: 'Couple Portrait', category: 'Pre-wedding' },
+  { id: 1, src: 'SMP08032.JPG', alt: 'Couple Portrait', category: 'Pre-wedding' },
   { id: 2, src: 'https://images.unsplash.com/photo-1583939411023-147850f3ad4f?auto=format&fit=crop&q=80&w=800', alt: 'Ring Ceremony', category: 'Engagement' },
   { id: 3, src: 'https://images.unsplash.com/photo-1606216838883-8d070b0cc87b?auto=format&fit=crop&q=80&w=800', alt: 'Traditional', category: 'Family' },
   { id: 4, src: 'https://images.unsplash.com/photo-1610178862957-c30c80775df5?auto=format&fit=crop&q=80&w=800', alt: 'Candid Moments', category: 'Candid' },
