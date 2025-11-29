@@ -1,0 +1,4 @@
+/* Empty CSS file - Tailwind CSS is applied via CDN in index.html */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

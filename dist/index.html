@@ -9,42 +9,48 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500;600;700;800&family=Great+Vibes&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Tiro+Devanagari+Marathi:ital@0;1&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
     <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              maroon: {
-                DEFAULT: '#800020',
-                light: '#a31538',
-                dark: '#590016',
-              },
-              gold: {
-                DEFAULT: '#D4AF37',
-                light: '#F4C430',
-                dark: '#AA8C2C',
-              },
-              cream: '#FFF8E7',
-              paithani: {
-                green: '#138086',
-                purple: '#6A1B9A',
+      // Wait for Tailwind to load before configuring
+      var tailwindConfigTimeout = setInterval(function() {
+        if (typeof tailwind !== 'undefined') {
+          clearInterval(tailwindConfigTimeout);
+          tailwind.config = {
+            theme: {
+              extend: {
+                colors: {
+                  maroon: {
+                    DEFAULT: '#800020',
+                    light: '#a31538',
+                    dark: '#590016',
+                  },
+                  gold: {
+                    DEFAULT: '#D4AF37',
+                    light: '#F4C430',
+                    dark: '#AA8C2C',
+                  },
+                  cream: '#FFF8E7',
+                  paithani: {
+                    green: '#138086',
+                    purple: '#6A1B9A',
+                  },
+                },
+                fontFamily: {
+                  heading: ['"Playfair Display"', 'serif'],
+                  script: ['"Great Vibes"', 'cursive'],
+                  body: ['"Montserrat"', 'sans-serif'],
+                  marathi: ['"Baloo Bhai 2"', '"Tiro Devanagari Marathi"', 'serif'],
+                },
+                backgroundImage: {
+                  'pattern-motif': "url('https://www.transparenttextures.com/patterns/black-scales.png')",
+                },
+                animation: {
+                  'spin-slow': 'spin 12s linear infinite',
+                  'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                }
               },
             },
-            fontFamily: {
-              heading: ['"Playfair Display"', 'serif'],
-              script: ['"Great Vibes"', 'cursive'],
-              body: ['"Montserrat"', 'sans-serif'],
-              marathi: ['"Baloo Bhai 2"', '"Tiro Devanagari Marathi"', 'serif'],
-            },
-            backgroundImage: {
-              'pattern-motif': "url('https://www.transparenttextures.com/patterns/black-scales.png')",
-            },
-            animation: {
-              'spin-slow': 'spin 12s linear infinite',
-              'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
-            }
-          },
-        },
-      }
+          }
+        }
+      }, 100);
     </script>
     <style>
       /* Custom scrollbar */
@@ -63,6 +69,7 @@
       }
       .text-gradient-gold {
         background: linear-gradient(to right, #bf953f, #fcf6ba, #b38728, #fbf5b7, #aa771c);
+        background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
       }
@@ -71,7 +78,6 @@
       }
     </style>
 
-<link rel="stylesheet" href="./index.css">
   <script type="importmap">
 {
   "imports": {
@@ -83,7 +89,8 @@
   }
 }
 </script>
-  <script type="module" crossorigin src="/assets/index-6F2msVVI.js"></script>
+  <script type="module" crossorigin src="/assets/index-4TnesBYc.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-C6G_3qQV.css">
 </head>
   <body class="bg-cream text-gray-800 antialiased overflow-x-hidden selection:bg-maroon selection:text-white">
     <div id="root"></div>
